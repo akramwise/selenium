@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30" started-at="2015-02-15T07:08:29Z" finished-at="2015-02-15T07:08:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30" started-at="2015-02-15T07:08:29Z" finished-at="2015-02-15T07:08:29Z">
+      <class name="testngpack.Users">
+        <test-method status="PASS" signature="editUsers()[pri:0, instance:testngpack.Users@3020ad]" name="editUsers" duration-ms="10" started-at="2015-02-15T12:38:29Z" finished-at="2015-02-15T12:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editUsers -->
+        <test-method status="PASS" signature="createUsers()[pri:0, instance:testngpack.Users@3020ad]" name="createUsers" duration-ms="0" started-at="2015-02-15T12:38:29Z" finished-at="2015-02-15T12:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUsers -->
+        <test-method status="PASS" signature="deleteUsers()[pri:0, instance:testngpack.Users@3020ad]" name="deleteUsers" duration-ms="0" started-at="2015-02-15T12:38:29Z" depends-on-methods="testngpack.Users.editUsers" finished-at="2015-02-15T12:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUsers -->
+      </class> <!-- testngpack.Users -->
+      <class name="testngpack.Customers">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testngpack.Customers@16dadf9]" name="openBrowser" is-config="true" duration-ms="10" started-at="2015-02-15T12:38:29Z" finished-at="2015-02-15T12:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="createCustomer()[pri:0, instance:testngpack.Customers@16dadf9]" name="createCustomer" duration-ms="10" started-at="2015-02-15T12:38:29Z" finished-at="2015-02-15T12:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:testngpack.Customers@16dadf9]" name="Login" is-config="true" duration-ms="0" started-at="2015-02-15T12:38:29Z" finished-at="2015-02-15T12:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:testngpack.Customers@16dadf9]" name="Logout" is-config="true" duration-ms="0" started-at="2015-02-15T12:38:29Z" finished-at="2015-02-15T12:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:testngpack.Customers@16dadf9]" name="Login" is-config="true" duration-ms="0" started-at="2015-02-15T12:38:29Z" finished-at="2015-02-15T12:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="deleteCustomer()[pri:0, instance:testngpack.Customers@16dadf9]" name="deleteCustomer" duration-ms="0" started-at="2015-02-15T12:38:29Z" finished-at="2015-02-15T12:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testngpack.Customers@16dadf9]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2015-02-15T12:38:29Z" finished-at="2015-02-15T12:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="editCustomer()[pri:0, instance:testngpack.Customers@16dadf9]" name="editCustomer" duration-ms="0" started-at="2015-02-15T12:38:29Z" finished-at="2015-02-15T12:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomer -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:testngpack.Customers@16dadf9]" name="Login" is-config="true" duration-ms="0" started-at="2015-02-15T12:38:29Z" finished-at="2015-02-15T12:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:testngpack.Customers@16dadf9]" name="Logout" is-config="true" duration-ms="0" started-at="2015-02-15T12:38:29Z" finished-at="2015-02-15T12:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:testngpack.Customers@16dadf9]" name="Logout" is-config="true" duration-ms="0" started-at="2015-02-15T12:38:29Z" finished-at="2015-02-15T12:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- testngpack.Customers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

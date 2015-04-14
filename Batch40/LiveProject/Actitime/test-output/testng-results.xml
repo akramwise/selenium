@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75827" started-at="2015-02-15T10:34:07Z" finished-at="2015-02-15T10:35:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75827" started-at="2015-02-15T10:34:07Z" finished-at="2015-02-15T10:35:23Z">
+      <class name="com.mindq.actitime.tasks.CreateCustomer">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.mindq.actitime.tasks.CreateCustomer@10dc6b5]" name="openUrl" is-config="true" duration-ms="14608" started-at="2015-02-15T16:04:07Z" finished-at="2015-02-15T16:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.mindq.actitime.tasks.CreateCustomer@10dc6b5]" name="login" is-config="true" duration-ms="15261" started-at="2015-02-15T16:04:22Z" finished-at="2015-02-15T16:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testCreateCustomer()[pri:0, instance:com.mindq.actitime.tasks.CreateCustomer@10dc6b5]" name="testCreateCustomer" duration-ms="11433" started-at="2015-02-15T16:04:37Z" finished-at="2015-02-15T16:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateCustomer -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.mindq.actitime.tasks.CreateCustomer@10dc6b5]" name="logout" is-config="true" duration-ms="570" started-at="2015-02-15T16:04:49Z" finished-at="2015-02-15T16:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="quitURl()[pri:0, instance:com.mindq.actitime.tasks.CreateCustomer@10dc6b5]" name="quitURl" is-config="true" duration-ms="140" started-at="2015-02-15T16:04:49Z" finished-at="2015-02-15T16:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitURl -->
+      </class> <!-- com.mindq.actitime.tasks.CreateCustomer -->
+      <class name="com.mindq.actitime.tasks.DeleteCustomers">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.mindq.actitime.tasks.DeleteCustomers@18b81e3]" name="openUrl" is-config="true" duration-ms="13966" started-at="2015-02-15T16:04:49Z" finished-at="2015-02-15T16:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.mindq.actitime.tasks.DeleteCustomers@18b81e3]" name="login" is-config="true" duration-ms="12879" started-at="2015-02-15T16:05:03Z" finished-at="2015-02-15T16:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testDeleteCustomer()[pri:0, instance:com.mindq.actitime.tasks.DeleteCustomers@18b81e3]" name="testDeleteCustomer" duration-ms="6667" started-at="2015-02-15T16:05:16Z" finished-at="2015-02-15T16:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCustomer -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.mindq.actitime.tasks.DeleteCustomers@18b81e3]" name="logout" is-config="true" duration-ms="144" started-at="2015-02-15T16:05:23Z" finished-at="2015-02-15T16:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="quitURl()[pri:0, instance:com.mindq.actitime.tasks.DeleteCustomers@18b81e3]" name="quitURl" is-config="true" duration-ms="148" started-at="2015-02-15T16:05:23Z" finished-at="2015-02-15T16:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitURl -->
+      </class> <!-- com.mindq.actitime.tasks.DeleteCustomers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
